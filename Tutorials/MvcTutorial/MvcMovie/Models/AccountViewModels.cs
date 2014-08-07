@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace MvcTutorial.Models
+namespace MvcMovie.Models
 {
     public class ExternalLoginConfirmationViewModel
     {

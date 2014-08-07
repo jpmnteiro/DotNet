@@ -1,8 +1,9 @@
 ﻿using Microsoft.Owin;
+using MvcMovie;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(MvcTutorial.Startup))]
-namespace MvcTutorial
+[assembly: OwinStartup(typeof(Startup))]
+namespace MvcMovie
 {
     public partial class Startup
     {
